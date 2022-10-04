@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agromet</title>
-    <link rel="stylesheet" href="estilos.css">
+    <!--<link rel="stylesheet" href="estilos.css">-->
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jomolhari&family=Kirang+Haerang&family=Truculenta:opsz@12..72&display=swap" rel="stylesheet">
@@ -13,22 +14,23 @@
 </head>
 <body>
     <header>
+       
+        <h1 class="titulo">Agromet</h1>
+        <h2 class="subtitulo">Balcarce</h2>
         <nav>
-            <h1 class="titulo">Agromet</h1>
-            <h2 class="subtitulo">Balcarce</h2>
             <a class="link" href="nosotros.html">Nosotros</a>
             <a class="link" href="contacto.html">Contacto</a>
         </nav>
     
     </header>
-    <main>
+    <main class="container">
         <section class="principal">
             <article class="container-prono">
                 <h2 class="prono">Pronóstico semanal</h2>
-                
-                <img class="imagen" src="./Imagenes/pronostico.png" alt="pronostico" width="300" height="">
-                <img class="imagen" src="./Imagenes/anomalia.png" alt="anomalia" width="300" height="">
-            
+                <div class="imagen">
+                <img class="img" src="./Imagenes/pronostico.png" alt="pronostico" width="300" height="">
+                <img class="img" src="./Imagenes/anomalia.png" alt="anomalia" width="300" height="">
+            </div>
                 <p >El martes 20 sobre la región se prevé el ingreso de una masa de aire más fría acompañada por vientos del sector sudeste, marcado descenso de las temperaturas y nubosidad variable. Habría tiempo inestable para el miércoles 21 y jueves 22. Se podrían registrarían heladas débiles a moderadas en la zona entre el martes 20 y jueves 22. Hacia el domingo 25, un sistema frontal se desplazaría sobre la provincia con aumento de la nubosidad, vientos moderados del sector sudoeste y probabilidad de lluvias y chaparrones de variada intensidad; algunas podrían ser localmente intensas con abundante caída de agua y ráfagas.
                     De este modo, la anomalía de precipitación, sería superior a lo normal para la época sobre el sudeste, e inferior hacia el noroeste.
                 </p>
@@ -62,13 +64,13 @@
                                 INTA Balcarce.</p>
                     
                     <br>
-                <div class="info"> 
-                    <p>Para más información, ingrese
-                        <a href="https://www.argentina.gob.ar/inta" target="_blank">aquí.</a>
-                    </p>
-                   
-                </div>
+                
             </article>
+            <div class="info"> 
+                <p>Para más información, ingrese
+                <a href="https://www.argentina.gob.ar/inta" target="_blank">aquí.</a>
+                </p>
+             </div>
         </section>
 
         <aside class="menu">  
@@ -84,8 +86,8 @@
         </aside>
     </main>
     <footer>
-        <div><p>lorem</p></div>
-       <!--<div class="contactos">
+        
+       <div class="contactos">
                     <a aria-label="mail" href="mailto:agromet@agromet.gob.ar">
                     <i class="fa-regular fa-envelope fa-2x" alt="mail"></i>
                     </a> 
@@ -106,7 +108,7 @@
                     <a class="link" href="#nav">Volver</a>
             </div>
                 
-    </div>-->
+    </div>
     </footer>
 </body>
 </html>

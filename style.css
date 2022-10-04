@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jomolhari', serif;
+    background-color: #E1E5F2;
+}
+header {
+    background-image: url("https://images.pexels.com/photos/391831/pexels-photo-391831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center center;
+	background-size: cover;
+    padding: 50px;
+    margin: 0;
+    width: 100vw;
+    /*border bottom: 2px solid #022B3A;*/
+    position: -webkit-sticky;
+    opacity: 0.9;
+}
+header nav{
+    text-align: right;
+    padding: 0px; 
+    background-color: transparent;
+}
+
+header .titulo, .subtitulo {
+    text-align: center;
+    color: #2A9D8F;
+    background-color: transparent;
+    width: 30%;
+    height: auto;
+    font-family: 'Truculenta', sans-serif;
+    padding: 0;
+}
+header .titulo{
+    font-size: 4em;
+}
+header .subtitulo{
+    font-size: 2em;
+}
+header nav a{
+    margin-right: 10px;
+    font-size: 24px;
+    color: white;
+    background-color: transparent;
+ }
+ /*estilos a  ver ahi*/
+nav a:visited {
+    color: #0c0c0a;
+}
+nav a:hover {
+    color: aqua;
+}
+
+ /*ver si queda*/
+ .body {
+    padding: 0px;
+}
+/*estilos main*/
+ .principal{
+    /*float: left;*/
+    width: 60%;
+    padding: 0 20px;
+    margin: 20px;
+}
+ .principal article{
+    width: 100%;
+    padding: 10px;
+}
+.principal article h2{
+    border-top: 2px solid #022B3A;
+    margin-top: 5px;
+    background-color: #BFDBF7;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    line-height: 20px;
+    padding-left: 5px;
+    display: block;
+    font-weight: bold;
+}
+/*ver como acomodar contenedor de las imagenes*/
+.principal .container-prono .imagen{
+    display: flex;
+    justify-content: center;
+
+}
+.principal .container-prono .img{
+    border: 30px;
+    margin-right: 10px;
+}
+.principal .container-cult h3{
+    font-size: 1em;
+}
+.principal article p{
+    text-align: justify;
+}
+.principal .info {
+    text-align: right;
+}
+/*estilos aside: menu*/
+.menu{
+    padding: 0 20px;
+    margin: 0;
+   
+    width: 30%;
+    text-align: center;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    margin-left: 10px;
+    margin-top: 5px;
+    display: block;
+    }
+
+.menu li {
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    margin: 5px;
+    border-top: 2px solid #1F7A8C;
+    /*background-color: #1F7A8C;*/
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+footer .contactos{
+    text-align: center;
+    padding:10px;
+    margin-right:7px;
+    padding-top: 15px;
+    display: block;
+    width: 100%;
+}
