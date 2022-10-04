@@ -5,6 +5,8 @@
     font-family: 'Jomolhari', serif;
     background-color: #E1E5F2;
 }
+
+
 header {
     background-image: url("https://images.pexels.com/photos/391831/pexels-photo-391831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-position: center center;
@@ -42,6 +44,7 @@ header nav a{
     font-size: 24px;
     color: white;
     background-color: transparent;
+    text-decoration: none;
  }
  /*estilos a  ver ahi*/
 nav a:visited {
@@ -55,22 +58,26 @@ nav a:hover {
  .body {
     padding: 0px;
 }
+.container-main{
+    display:flex;
+    flex-wrap: wrap;
+}
 /*estilos main*/
- .principal{
-    /*float: left;*/
+ .contenido-principal{
+    float: left;
     width: 60%;
     padding: 0 20px;
     margin: 20px;
 }
- .principal article{
+ .contenido-principal article{
     width: 100%;
     padding: 10px;
 }
-.principal article h2{
+.contenido-principal article h2{
     border-top: 2px solid #022B3A;
     margin-top: 5px;
     background-color: #BFDBF7;
-    font-size: 1.2em;
+    font-size: 24px;
     margin-bottom: 5px;
     line-height: 20px;
     padding-left: 5px;
@@ -78,29 +85,33 @@ nav a:hover {
     font-weight: bold;
 }
 /*ver como acomodar contenedor de las imagenes*/
-.principal .container-prono .imagen{
+.contenido-principal .container-prono .imagen{
     display: flex;
     justify-content: center;
 
 }
-.principal .container-prono .img{
+.contenido-principal .container-prono .img{
     border: 30px;
     margin-right: 10px;
 }
-.principal .container-cult h3{
-    font-size: 1em;
+.contenido-principal .container-cult h3{
+    font-size: 18px;
 }
-.principal article p{
+.contenido-principal article p{
     text-align: justify;
+    font-size: 14px;
 }
-.principal .info {
+.contenido-principal .info {
     text-align: right;
+}
+.contenido-principal .info p{
+    font-size: 14px;
 }
 /*estilos aside: menu*/
 .menu{
     padding: 0 20px;
-    margin: 0;
-   
+    margin-top: 30px;
+    float:right;
     width: 30%;
     text-align: center;
 }
@@ -123,6 +134,9 @@ nav a:hover {
     /*background-color: #1F7A8C;*/
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+.menu ul li a{
+    font-size: 18px;
+}
 footer .contactos{
     text-align: center;
     padding:10px;
@@ -130,4 +144,9 @@ footer .contactos{
     padding-top: 15px;
     display: block;
     width: 100%;
+
 }
+
+    
+
+
