@@ -7,6 +7,7 @@
     <title>Agromet</title>
     <!--<link rel="stylesheet" href="estilos.css">-->
     <link rel="stylesheet" href="./style.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jomolhari&family=Kirang+Haerang&family=Truculenta:opsz@12..72&display=swap" rel="stylesheet">
@@ -20,6 +21,11 @@
             <a class="link" href="nosotros.html">Nosotros</a>
             <a class="link" href=".contactos">Contacto</a>
         </nav>-->
+            <!--<div class="container" id="app">
+                <p>{{clima.name}}</p>
+                <p>{{clima.coord.lon}}</p>
+                <p>{{clima.main.humidity}}</p>
+            </div>-->
         <script src="./java/encabezado.js"></script>
     </header>
 
@@ -28,8 +34,8 @@
             <article class="container-prono">
                 <h2 class="prono">Pronóstico semanal</h2>
                     <div class="imagen">
-                        <img class="img" src="./Imagenes/pronostico.png" alt="pronostico" width="300" height="">
-                        <img class="img" src="./Imagenes/anomalia.png" alt="anomalia" width="300" height="">
+                        <img class="img" src="./Imagenes/pronostico.png" alt="pronostico" width="300" height="200">
+                        <img class="img" src="./Imagenes/anomalia.png" alt="anomalia" width="300" height="200">
                     </div>
                 <p >El martes 20 sobre la región se prevé el ingreso de una masa de aire más fría acompañada por vientos del sector sudeste, marcado descenso de las temperaturas y nubosidad variable. Habría tiempo inestable para el miércoles 21 y jueves 22. Se podrían registrarían heladas débiles a moderadas en la zona entre el martes 20 y jueves 22. Hacia el domingo 25, un sistema frontal se desplazaría sobre la provincia con aumento de la nubosidad, vientos moderados del sector sudoeste y probabilidad de lluvias y chaparrones de variada intensidad; algunas podrían ser localmente intensas con abundante caída de agua y ráfagas.
                     De este modo, la anomalía de precipitación, sería superior a lo normal para la época sobre el sudeste, e inferior hacia el noroeste.
@@ -77,23 +83,16 @@
                 <li><a class="link" href="./prono_tri.html" target="_blank">Pronóstico trimestral</a></li>
                 <li><a class="link" href="./Datos.html" target="_blank">Datos meteorológicos diarios actualizados</a></li>
                 <li><a class="link" href="./Mapas.html" target="_blank">Mapas</a></li>
+                <li><a class="link" href="./equipos2.html" target="_blank">Equipos</a></li>
                 <li><a class="link" href="./formulario.html"  target="_blank">Novedades en tu mail</a></li>
             </ul>
         </aside>
     </main>
     
     <footer>
-   <!-- <div class="contactos">
-                <h5>Podes escribirnos en <a href="mailto:agromet@agromet.gob.ar">agromet@agromet.com.ar</a></h5>
-                <h5>o buscanos en las redes sociales</h5>
-                    <img src="./instagram.png" alt="instagram" style="width:24px;height:24px;">
-                    <img src="./whatsapp.png" alt="wsp" style="width:24px;height:24px;">
-                    <img src="./gorjeo.png" alt="twitter" style="width:24px;height:24px;">
-                <br>
-                <a class="link" href="#nav">Volver</a>           
-        </div>-->
         <script src="./java/footer.js"></script>
     </footer>
-<script src="./main.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>>
+    <script src="./java/clima.js"></script>
 </body>
 </html>
