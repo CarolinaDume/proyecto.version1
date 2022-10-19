@@ -1,4 +1,3 @@
-
 const formulario = document.getElementById("formulario");
 
 const userName = document.getElementById("userName");
@@ -68,7 +67,3 @@ formulario.addEventListener("submit", (e) => {
   //Resetea el formulario luego de enviado.
 
  //ver reseteo se resetea si vamos escribiendo ya un campo mal borra todo
- 
-  
-
-   
