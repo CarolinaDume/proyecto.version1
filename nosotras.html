@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datos_graf</title>
-    <!--<link rel="stylesheet" href="estilos.css">-->
+    <title>Agromet</title>
     <link rel="stylesheet" href="./estilos/style.css">
     <link rel="stylesheet" href="./estilos/estilosjson.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,45 +14,30 @@
 </head>
 <body>
     <header>
-        <!--<h1 class="titulo">Agromet</h1>
-        <h2 class="subtitulo">Balcarce</h2>
-        <nav>
-            <a class="link" href="nosotros.html">Nosotros</a>
-            <a class="link" href=".contactos">Contacto</a>
-        </nav>-->
         <script src="./java/encabezado.js"></script>
     </header>
 
     <main class="container-main">
         <section class="contenido-principal col-8 col-s-12">
             <article class="container-prono">
-                <div>
-                    <h2>Precipitaciones diarias</h2>
-                    <iframe src="./pp.html" height="300" width="840"  title="pp"></iframe>
+                <div class="imagen">
+                    <img class="img" src="./Imagenes/chicas.jpg" alt="pronostico" width="500" height="300">
                 </div>
-                <br>
-                <div>
-                    <h2>Temperatura máxima</h2>
-                    <iframe src="./tem_max.html" height="300" width="840" title="temp_max"></iframe>
-                </div>
-                <br>
-                <div>
-                    <h2>Temperatura mínima</h2>
-                    <iframe src="./tem_min.html" height="300" width="840" title="temp_min"></iframe>
-                </div>
+                    <p class="nosotras">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda officiis nemo eveniet fuga eum accusamus cumque sapiente cum. Voluptatibus, veniam praesentium. Quisquam exercitationem illo necessitatibus suscipit magni officiis ex asperiores?
+                    De este modo, la anomalía de precipitación, sería superior a lo normal para la época sobre el sudeste, e inferior hacia el noroeste.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero amet optio quasi harum praesentium vitae eaque debitis dolorem atque, a et odit sed nobis neque incidunt aspernatur sunt quo sint.
+                </p>
             </article>
         </section>
-
         <div class="clima">
             <div class="tutiempo" id="WidgetTutiempo"></div>
         </div>
+        </aside>
     </main>
-    
     <footer>
         <script src="./java/footer.js"></script>
     </footer>
-        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>>
-        <script src="./java/clima.js"></script>
-        <script src="./java/tutiempo.js"></script>
+    <script src="./java/clima.js"></script>
+    <script src="./java/tutiempo.js"></script>
 </body>
 </html>
